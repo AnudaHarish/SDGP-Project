@@ -9,7 +9,7 @@
 	$errflag = false;
 	
 	//Connect to mysql server
-	$conn = mysqli_connect('localhost','root',"",'surplus');
+	$conn = mysqli_connect('localhost','root',"",'sales');
 	if(!$conn) {
 		die('Failed to connect to server: ' . mysqli_error());
 	}
